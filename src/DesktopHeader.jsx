@@ -165,12 +165,12 @@ class DesktopHeader extends React.Component {
         <div className={`container-fluid ${logoClasses}`}>
           <div className="nav-container position-relative d-flex align-items-center hp-60 mx-4">
             {logoDestination === null ? <Logo className="logo" src={logo} alt={logoAltText} /> : <LinkedLogo className="logo" {...logoProps} />}
-            <nav
+            {/* <nav
               aria-label={intl.formatMessage(messages['header.label.main.nav'])}
               className="nav main-nav h-100"
             >
               {this.renderMainMenu()}
-            </nav>
+            </nav> */}
 
             <div className="h-100 ml-auto d-flex">
               {
